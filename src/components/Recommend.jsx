@@ -14,8 +14,9 @@ export default function Recommend() {
   const data = [
     {
       image: Destination1,
-      title: "Singapore",
-      subTitle: "Singapore, officialy thr Republic of Singapore, is a",
+      title: "Gangtok",
+      subTitle:
+        "With magnificent views of the Kanchenjunga peak, uniqueness and vibrancy in colours of culture and tradition infused into the stunning sceneries and just the right dash of subtle city life is one of the most popular tourist destinations in the area",
       cost: "38,800",
       duration: "Approx 2 night trip",
     },
