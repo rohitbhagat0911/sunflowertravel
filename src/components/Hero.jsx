@@ -9,12 +9,8 @@ export default function Hero() {
       </div>
       <div className="content">
         <div className="title">
-          <h1>TRAVEL TO EXPLORE</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            natus, enim ipsam magnam odit deserunt itaque? Minima earum velit
-            tenetur!
-          </p>
+          <h1>ONE STEP TO QUALITY TOURISM</h1>
+          <p></p>
         </div>
         <div className="search">
           <div className="container">
