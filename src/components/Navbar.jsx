@@ -24,16 +24,28 @@ export default function Navbar() {
 
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">HOME</a>
+          </li>
+           <li>
+            <a href="#home">TOUR</a>
+          </li>
+           <li>
+            <a href="#home">CAR</a>
+          </li>
+           <li>
+            <a href="#home">HOTEL</a>
+          </li>
+           <li>
+            <a href="#home">TOP DESTINATION</a>
           </li>
           <li>
-            <a href="#services">About</a>
+            <a href="#services">BLOGS</a>
           </li>
           <li>
-            <a href="#recommend">Places</a>
+            <a href="#recommend">FAQ</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">CONTACT</a>
           </li>
         </ul>
         <button>Connect</button>
@@ -78,7 +90,7 @@ const Nav = styled.nav`
       align-items: center;
       gap: 0.4rem;
       font-size: 1.2rem;
-      font-weight: 900;
+      font-weight: 700;
       text-transform: uppercase;
     }
     .toggle {
@@ -87,34 +99,35 @@ const Nav = styled.nav`
   }
   ul {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     list-style-type: none;
     li {
       a {
         text-decoration: none;
         color: #0077b6;
-        font-size: 1.2rem;
+        font-size: 0.92em;
+        font-weight: 600;
         transition: 0.1s ease-in-out;
         &:hover {
           color: #023e8a;
         }
       }
-      &:first-of-type {
-        a {
-          color: #023e8a;
-          font-weight: 900;
-        }
+      // &:first-of-type {
+      //   a {
+      //     color: #023e8a;
+      //     font-weight: 900;
+      //   }
       }
     }
   }
   button {
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.5rem;
     cursor: pointer;
     border-radius: 1rem;
     border: none;
     color: white;
     background-color: #48cae4;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
