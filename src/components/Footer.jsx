@@ -19,6 +19,7 @@ export default function Footer() {
           <div>
             <ul className="links">
               <li>
+<<<<<<< HEAD
             
                 <div className="contact-border">
                    
@@ -48,6 +49,16 @@ export default function Footer() {
               {/* just added the class of contact border to each of these links */}
               
               {/* <li className="contact-border"> 
+=======
+                <div className="contact-border">
+                  <li>Call Us </li>
+                  <li>+91 97333 11217</li>
+                  {/* this is the real number of the client */}
+                </div>
+              </li>
+              {/* just added the class of contact border to each of these links */}
+              <li className="contact-border">
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
                 <a href="#services">About</a>
               </li>
               <li className="contact-border">
@@ -55,7 +66,11 @@ export default function Footer() {
               </li>
               <li className="contact-border">
                 <a href="#testimonials">Testimonials</a>
+<<<<<<< HEAD
               </li> */}
+=======
+              </li>
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
             </ul>
           </div>
 
@@ -77,7 +92,11 @@ export default function Footer() {
           </div>
 
           <div>
+<<<<<<< HEAD
             <ul className="links content-position ext-position">
+=======
+            <ul className="links content-position">
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
               <li>
                 <a href="#hero">Home</a>
               </li>
@@ -94,7 +113,11 @@ export default function Footer() {
           </div>
 
           <div>
+<<<<<<< HEAD
             <ul className="links content-position ext-position">
+=======
+            <ul className="links content-position">
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
               <li>
                 <a href="#hero">Home</a>
               </li>
@@ -111,6 +134,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
 
       {/* <ul className="social__links">
                       <li>
@@ -124,6 +148,19 @@ export default function Footer() {
                       </li>
                     </ul> */}
       
+=======
+      <ul className="social__links">
+        <li>
+          <BsFacebook />
+        </li>
+        <li>
+          <AiFillInstagram />
+        </li>
+        <li>
+          <BsLinkedin />
+        </li>
+      </ul>
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
     </FooterContainer>
   );
 }
@@ -175,12 +212,16 @@ const FooterContainer = styled.footer`
   .content-position {
     display: block;
     border: 0px solid red;
+<<<<<<< HEAD
         &:first-of-type{
           padding-top: 0.2em;
           margin-left: 6em;
         }
 
 
+=======
+    margin-left: 10em;
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
   }
   .contact-border li {
     display: block;
@@ -196,6 +237,7 @@ const FooterContainer = styled.footer`
       margin-top: -1.5em;
       margin-bottom: 1.2em;
 
+<<<<<<< HEAD
     }
 
     &:nth-of-type(2n) {
@@ -205,6 +247,15 @@ const FooterContainer = styled.footer`
     }
 
     
+=======
+  .contact-border {
+    padding-top: -3vh;
+    padding-down: 2vh;
+    height: 4em;
+    border-left: 3px solid red;
+
+    padding-left: 1.2em;
+>>>>>>> 69728a0305f3495093cb8df0c9b45f074cfab797
   }
 
   .text-none-wrap {
