@@ -112,12 +112,6 @@ const Nav = styled.nav`
           color: #023e8a;
         }
       }
-      // &:first-of-type {
-      //   a {
-      //     color: #023e8a;
-      //     font-weight: 900;
-      //   }
-      }
     }
   }
   button {
