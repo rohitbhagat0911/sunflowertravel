@@ -8,97 +8,89 @@ export default function Footer() {
       {/* <span>Copyright &copy; 2021 Travelo. All rights reserved</span> */}
 
       <div>
+        <ul className="footer-guide">
+          <li>NEED HELP?</li>
+          <li>COMPANY</li>
+          <li>POPULAR CATEGORIES</li>
+          <li>TOP DESTINATION</li>
+        </ul>
 
-      <ul className='footer-guide'>
-        <li>NEED HELP?</li>
-         <li>COMPANY</li>
-         <li>POPULAR CATEGORIES</li>
-         <li>TOP DESTINATION</li>
-      </ul>
+        <div className="footer-content">
+          <div>
+            <ul className="links">
+              <li>
+                <div className="contact-border">
+                  <li>Call Us </li>
+                  <li>+91 97333 11217</li>
+                  {/* this is the real number of the client */}
+                </div>
+              </li>
+              {/* just added the class of contact border to each of these links */}
+              <li className="contact-border">
+                <a href="#services">About</a>
+              </li>
+              <li className="contact-border">
+                <a href="#recommend">Places</a>
+              </li>
+              <li className="contact-border">
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
 
+          <div>
+            <ul className="links  content-position">
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#services">About</a>
+              </li>
+              <li>
+                <a href="#recommend">Places</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
 
-      <div className='footer-content'>
+          <div>
+            <ul className="links content-position">
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#services">About</a>
+              </li>
+              <li>
+                <a href="#recommend">Places</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
 
-      <div>
-
-      <ul className="links">
-        <li>
-          <div className='contact-border'>
-                 <li>Call Us</li> 
-                 <li>+ 91 891 731 3559</li>
-            </div>
-        </li>
-        <li>
-          <a href="#services">About</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
+          <div>
+            <ul className="links content-position">
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#services">About</a>
+              </li>
+              <li>
+                <a href="#recommend">Places</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <div>
-
-      <ul className="links  content-position">
-        <li>
-          <a href="#hero">Home</a>
-        </li>
-        <li>
-          <a href="#services">About</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
-      </div>
-
-
-      <div>
-
-<ul className="links content-position">
-  <li>
-    <a href="#hero">Home</a>
-  </li>
-  <li>
-    <a href="#services">About</a>
-  </li>
-  <li>
-    <a href="#recommend">Places</a>
-  </li>
-  <li>
-    <a href="#testimonials">Testimonials</a>
-  </li>
-</ul>
-</div>
-
-<div>
-
-      <ul className="links content-position">
-        <li>
-          <a href="#hero">Home</a>
-        </li>
-        <li>
-          <a href="#services">About</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
-      </div>
-
-      
-      </div>
-      </div>
-      {/* <ul className="social__links">
+      <ul className="social__links">
         <li>
           <BsFacebook />
         </li>
@@ -108,7 +100,7 @@ export default function Footer() {
         <li>
           <BsLinkedin />
         </li>
-      </ul> */}
+      </ul>
     </FooterContainer>
   );
 }
@@ -122,11 +114,9 @@ const FooterContainer = styled.footer`
   padding-bottom: 4em;
 
   ul {
-    
     list-style-type: none;
     gap: 2rem;
     li {
-
       padding-top: 1.5em;
       a {
         text-decoration: none;
@@ -146,20 +136,17 @@ const FooterContainer = styled.footer`
     }
   }
   .footer-guide {
-      display: flex;
-      column-gap: 8.6em;
-      font-weight: 500;
+    display: flex;
+    column-gap: 8.6em;
+    font-weight: 500;
   }
 
   .footer-guide li {
-   
     border-bottom: 1px solid #f8f8f8;
     width: 8vw;
     white-space: nowrap;
     display: inline;
     padding-bottom: 1.5em;
-    
-    
   }
 
   .footer-content {
@@ -170,18 +157,15 @@ const FooterContainer = styled.footer`
     display: block;
     border: 0px solid red;
     margin-left: 10em;
-    
   }
 
-  .contact-border{
+  .contact-border {
     padding-top: -3vh;
+    padding-down: 2vh;
     height: 4em;
     border-left: 3px solid red;
 
-
-    
     padding-left: 1.2em;
-     
   }
   @media screen and (min-width: 280px) and (max-width: 1024px) {
     flex-direction: column;
