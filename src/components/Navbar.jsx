@@ -39,9 +39,6 @@ export default function Navbar() {
             <a href="#home">TOP DESTINATION</a>
           </li>
           <li>
-            <a href="#services">BLOGS</a>
-          </li>
-          <li>
             <a href="#recommend">FAQ</a>
           </li>
           <li>

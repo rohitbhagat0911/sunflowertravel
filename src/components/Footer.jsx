@@ -8,107 +8,122 @@ export default function Footer() {
       {/* <span>Copyright &copy; 2021 Travelo. All rights reserved</span> */}
 
       <div>
+        <ul className="footer-guide">
+          <li>NEED HELP?</li>
+          <li>COMPANY</li>
+          <li>POPULAR CATEGORIES</li>
+          <li>TOP DESTINATION</li>
+        </ul>
 
-      <ul className='footer-guide'>
-        <li>NEED HELP?</li>
-         <li>COMPANY</li>
-         <li>POPULAR CATEGORIES</li>
-         <li>TOP DESTINATION</li>
-      </ul>
+        <div className="footer-content">
+          <div>
+            <ul className="links">
+              <li>
+            
+                <div className="contact-border">
+                   
+                  <li>Call Us </li>
+                  <li className='phone-no'>+91 97333 11217</li>
+                  
+                  {/* this is the real number of the client */}
+                </div>
 
+                <div className="contact-border">
+                   
+                   <li>Email Us</li>
+                   <li className='font-sty'>contact@sunflower.in</li>
+                   
+                   {/* this is the real number of the client */}
+                 </div>
 
-      <div className='footer-content'>
+                 <div className="contact-border text-none-wrap">
+                      <li>Follow Us</li>
+                      <li> <div className='logo-align'> <span><BsFacebook /></span>
+                       <span><AiFillInstagram /></span> 
+                        <span><BsLinkedin /></span>
+                        </div>
+                        </li>
+                 </div>
+              </li>
+              {/* just added the class of contact border to each of these links */}
+              
+              {/* <li className="contact-border"> 
+                <a href="#services">About</a>
+              </li>
+              <li className="contact-border">
+                <a href="#recommend">Places</a>
+              </li>
+              <li className="contact-border">
+                <a href="#testimonials">Testimonials</a>
+              </li> */}
+            </ul>
+          </div>
 
-      <div>
+          <div>
+            <ul className="links  content-position">
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#services">About</a>
+              </li>
+              <li>
+                <a href="#recommend">Places</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
 
-      <ul className="links">
-        <li>
-          <div className='contact-border'>
-                 <li>Call Us</li> 
-                 <li>+ 91 891 731 3559</li>
-            </div>
-        </li>
-        <li>
-          <a href="#services">About</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
+          <div>
+            <ul className="links content-position ext-position">
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#services">About</a>
+              </li>
+              <li>
+                <a href="#recommend">Places</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul className="links content-position ext-position">
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#services">About</a>
+              </li>
+              <li>
+                <a href="#recommend">Places</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div>
-
-      <ul className="links  content-position">
-        <li>
-          <a href="#hero">Home</a>
-        </li>
-        <li>
-          <a href="#services">About</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
-      </div>
-
-
-      <div>
-
-<ul className="links content-position">
-  <li>
-    <a href="#hero">Home</a>
-  </li>
-  <li>
-    <a href="#services">About</a>
-  </li>
-  <li>
-    <a href="#recommend">Places</a>
-  </li>
-  <li>
-    <a href="#testimonials">Testimonials</a>
-  </li>
-</ul>
-</div>
-
-<div>
-
-      <ul className="links content-position">
-        <li>
-          <a href="#hero">Home</a>
-        </li>
-        <li>
-          <a href="#services">About</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-      </ul>
-      </div>
-
-      
-      </div>
-      </div>
       {/* <ul className="social__links">
-        <li>
-          <BsFacebook />
-        </li>
-        <li>
-          <AiFillInstagram />
-        </li>
-        <li>
-          <BsLinkedin />
-        </li>
-      </ul> */}
+                      <li>
+                        <BsFacebook />
+                      </li>
+                      <li>
+                        <AiFillInstagram />
+                      </li>
+                      <li>
+                        <BsLinkedin />
+                      </li>
+                    </ul> */}
+      
     </FooterContainer>
   );
 }
@@ -120,13 +135,10 @@ const FooterContainer = styled.footer`
   border-radius: 0.5rem;
   padding: 2.5rem;
   padding-bottom: 4em;
-
   ul {
-    
     list-style-type: none;
     gap: 2rem;
     li {
-
       padding-top: 1.5em;
       a {
         text-decoration: none;
@@ -146,43 +158,71 @@ const FooterContainer = styled.footer`
     }
   }
   .footer-guide {
-      display: flex;
-      column-gap: 8.6em;
-      font-weight: 500;
+    display: flex;
+    column-gap: 8.6em;
+    font-weight: 500;
   }
-
   .footer-guide li {
-   
     border-bottom: 1px solid #f8f8f8;
     width: 8vw;
     white-space: nowrap;
     display: inline;
     padding-bottom: 1.5em;
-    
-    
   }
-
   .footer-content {
     display: flex;
   }
-
   .content-position {
     display: block;
     border: 0px solid red;
-    margin-left: 10em;
+        &:first-of-type{
+          padding-top: 0.2em;
+          margin-left: 6em;
+        }
+
+
+  }
+  .contact-border li {
+    display: block;
+    margin-top: -2em;
+    padding-bottom: 0.5em;
+
+    &:first-of-type {
+      font-size: 1em;
+      color: #6f6f6f;
+      display: block;
+      border-bottom: 2px solid #9e9e9e;
+      width: 4em;
+      margin-top: -1.5em;
+      margin-bottom: 1.2em;
+
+    }
+
+    &:nth-of-type(2n) {
+      font-weight: 500;
+      padding-bottom: 1.2em;
+      color: #202020;
+    }
+
     
   }
 
-  .contact-border{
-    padding-top: -3vh;
-    height: 4em;
-    border-left: 3px solid red;
-
-
-    
-    padding-left: 1.2em;
-     
+  .text-none-wrap {
+    white-space: nowrap;
   }
+
+  .logo-align {
+    display: flex;
+    padding-top: -0.4em;
+    column-gap: 1.4em;
+  }
+
+  // .ext-position{
+  //   display: inline;
+  //   padding-left: 9em;
+  // }
+  
+  
   @media screen and (min-width: 280px) and (max-width: 1024px) {
     flex-direction: column;
     gap: 2rem;
